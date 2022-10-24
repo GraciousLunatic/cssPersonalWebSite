@@ -1,60 +1,142 @@
 /* E1FFB1 */
-body{
+body {
   margin: 0;
   text-align: center;
 }
 
-.top-container{
-  background-color: #E1FFB1;
-  font-family: Apple Chancery, san-serif;
-  position:relative;
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
   padding-top: 5px;
 }
-.cloud-top{
-  position:relative;
+
+.cloud-top {
+  position: relative;
   top: 30px;
   left: 200px;
-  width: 17%;
+  width: 12%;
 }
-.cloud-bottom{
-  position:absolute;
-  left: 350px;
-  width: 15%;
-}
-.mountain{
-  position:relative;
-  width: 53%;
-}
-.profile_pic{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-.skills_pic{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-.gb_pic{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
 
+.cloud-bottom {
+  position: absolute;
+  left: 350px;
+  width: 12%;
 }
-h1{
+
+.mountain {
+  position: relative;
+  width: 48%;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.skills_pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+}
+
+.gb_pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: right;
+  margin-left: 30px;
+}
+
+h1 {
   font-family: Gloria Hallelujah, sans-serif;
-  font-size: 60px;
+  font-size: 500%;
+  margin-top: 30px;
+  color: #66BFBF;
 }
-h2{
+
+h2 {
   font-family: Almarai, sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
-h3{
+
+h3 {
   font-family: Almarai, sans-serif;
+  color: #11999E;
 }
-p{
+
+p {
   font-family: Ubuntu, Almarai, sans-serif;
   font-size: 20px;
+  color: #40514E;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  image: 100%;
+}
+
+.skill-row > p{
+  text-align: left;
+}
+.skill-row > h3{
+  text-align: left;
+}
+hr{
+  width: 7%;
+  border: none;
+  border-top: 8px dotted #EAF6F6;
+}
+.contact-me{
+  width: 50%;
+  margin: 0 auto 50px auto;
+  line-height: 2;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Almarai, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 150 auto 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer-link{
+  color: #11999E;
+  font-family: Almarai, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 50px 0 50px;
 }
